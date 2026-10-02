@@ -2,7 +2,7 @@
 (function(){
   var ROOT=document.body.getAttribute('data-root')||'';
   var S=window.SITE,SECT=S.SECTORS,G={},PLACE=S.PLACES,GSLUG=S.GROUP_PAGES;
-  var P=S.PROJECTS.map(function(p){return [p.title,p.group,p.sectors,p.place,p.summary,(p.live?'L':'')+(p.coursework?'C':''),(p.page||('projects/'+p.slug+'.html')),p.link]});
+  var P=S.PROJECTS.map(function(p){return [p.title,p.group,p.sectors,p.place,p.summary,(p.live?'L':'')+(p.coursework?'C':''),(p.page||('projects/'+p.slug+'.html')),p.link,p.image||'']});
   Object.keys(S.GROUPS).forEach(function(k){var g=S.GROUPS[k];G[k]={t:g.title,q:g.ask,i:g.intro};});
   var PIMG={};S.PROJECTS.forEach(function(p){if(p.image)PIMG[p.title]=p.image;});
   var GN={risk:"Climate Risk",heat:"Extreme Heat",carbon:"Decarbonisation",planning:"Planning",training:"Training & Research"};
@@ -19,7 +19,7 @@
       var tags=p[2].split('').map(function(c){return '<span class="chip">'+esc(SECT[c])+'</span>'}).join('');
       var badges=(p[5].indexOf('L')>-1?'<span class="live">Live tool</span>':'')+(p[5].indexOf('C')>-1?'<span class="chip course">Columbia coursework</span>':'');
       var acts=(true?'<a class="btn sm p" href="'+ROOT+p[6]+'">View project</a>':'')+(p[7]?'<a class="btn sm" href="'+p[7]+'">Open live tool ↗</a>':'');
-      var ik=PIMG[p[0]],thumb=ik?'<div class="pthumb"><img src="'+ROOT+'images/projects/'+ik+'.jpg" loading="lazy" alt=""'+(/^(adaptation-costs-dashboard|economic-benefits-dashboard|evacuation-planner|forensic-building-flood|heat-illness-dashboard|resilience-tracker|solar-dashboard|urban-heat-dashboard)$/.test(ik)?' class="dash"':'')+'></div>':'<div class="pthumb ph"><span>Photo to come · '+esc(PLACE[p[3]]||'')+'</span></div>';
+      var ik=p[8]||PIMG[p[0]],thumb=ik?'<div class="pthumb"><img src="'+ROOT+'images/projects/'+ik+'.jpg" loading="lazy" alt=""'+(/^(adaptation-costs-dashboard|economic-benefits-dashboard|evacuation-planner|forensic-building-flood|heat-illness-dashboard|resilience-tracker|solar-dashboard|urban-heat-dashboard)$/.test(ik)?' class="dash"':'')+'></div>':'<div class="pthumb ph"><span>Photo to come · '+esc(PLACE[p[3]]||'')+'</span></div>';
       return '<article class="pcard">'+thumb+(badges?'<div class="meta-row">'+badges+'</div>':'')+'<h3>'+esc(p[0])+'</h3><p>'+esc(p[4])+'</p><div class="chips">'+tags+'</div>'+(acts?'<div class="acts">'+acts+'</div>':'')+'</article>';
     }).join('');
     var nx=order[(ix+1)%order.length];
@@ -33,7 +33,12 @@
   var box=document.getElementById('sectorBtns'),list=document.getElementById('sectorList');if(box){
   function showSector(k){
     var items=P.filter(function(p){return p[2].indexOf(k)>-1});
-    list.innerHTML='<span class="eyebrow">'+esc(SECT[k])+' · '+items.length+' projects</span><ul>'+items.map(function(p){return '<li>'+'<a href="'+ROOT+p[6]+'">'+esc(p[0])+'</a>'+' <span>· '+esc(GN[p[1]])+'</span></li>'}).join('')+'</ul>';
+    var cards=items.map(function(p){
+      var ik=p[8]||PIMG[p[0]];
+      var thumb=ik?'<span class="sec-thumb"><img src="'+ROOT+'images/projects/'+ik+'.jpg" loading="lazy" alt=""'+(/^(adaptation-costs-dashboard|economic-benefits-dashboard|evacuation-planner|forensic-building-flood|heat-illness-dashboard|resilience-tracker|solar-dashboard|urban-heat-dashboard)$/.test(ik)?' class="dash"':'')+'></span>':'<span class="sec-thumb ph"><span>'+esc((PLACE[p[3]]||p[0]).slice(0,3))+'</span></span>';
+      return '<li><a class="sec-item" href="'+ROOT+p[6]+'">'+thumb+'<div class="sec-info"><strong>'+esc(p[0])+'</strong><span>'+esc(GN[p[1]])+(p[3]?' · '+esc(PLACE[p[3]]):'')+'</span></div></a></li>';
+    }).join('');
+    list.innerHTML='<span class="eyebrow">'+esc(SECT[k])+' · '+items.length+' projects</span><ul class="sec-grid">'+cards+'</ul>';
     box.querySelectorAll('button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.k===k?'true':'false')});
   }
   Object.keys(SECT).forEach(function(k){
