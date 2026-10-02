@@ -331,7 +331,7 @@ footer{margin-top:clamp(64px,9vw,110px);background:var(--sky);overflow:hidden}
 .pcard .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
 .pnote{margin-top:24px;font-size:.88rem;color:var(--muted)}
 .docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,180px),1fr));gap:14px}
-.doc{display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:0;cursor:zoom-in;overflow:hidden;text-align:left;color:inherit;font:inherit;min-width:0}
+.doc{display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:0;cursor:pointer;text-decoration:none;overflow:hidden;text-align:left;color:inherit;font:inherit;min-width:0}
 .doc:hover,.doc:focus-visible{border-color:var(--accent)}
 .doc .pg{position:relative;display:block;aspect-ratio:4/5;background:var(--accent-soft)}
 .doc .pg img{position:absolute;inset:12px;width:calc(100% - 24px);height:calc(100% - 24px);object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,.3))}
