@@ -19,7 +19,7 @@ South Florida is getting hotter, and heat illness sends thousands of people to t
 - Briefed city officials, doctors and community groups.
 
 ## Result (what changed; a number helps)
-A county-wide heat program covering about 2 million residents, 35+ cooling centres, and public tools that residents and cities use to plan for hot days. The program won a NACo 2025 Achievement Award from the National Association of Counties.
+A county-wide heat program covering about 2 million residents, 35+ cooling centres, and public tools that residents and cities use to plan for hot days. The program won a NACo 2026 Achievement Award from the National Association of Counties.
 
 ## My role
 Led the analysis and managed delivery end to end
