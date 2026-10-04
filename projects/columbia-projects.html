@@ -20,19 +20,18 @@
     </a>
     <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <nav class="links" id="mainNav" aria-label="Main">
-      <a href="../index.html#groups" aria-current="page">Work</a><a href="../index.html#where">Where</a><a href="../index.html#about">About</a><a href="../timeline.html">Timeline</a><a href="#contact">Contact</a>
+      <a href="../index.html#featured" aria-current="page">Work</a><a href="../sectors.html">Sectors</a><a href="../index.html#about">About</a><a href="../timeline.html">Journey</a>
     </nav>
     <div class="look" role="group" aria-label="Colour theme">
       <button type="button" id="look-dark" data-look="dark" aria-pressed="true" aria-label="Dark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
       <button type="button" id="look-light" data-look="light" aria-pressed="false" aria-label="Light"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
     </div>
-    <a class="btn sm p" href="../files/resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
+    <a class="btn sm p" href="#contact">Let's collaborate</a>
   </div>
 </header>
 
 <div class="strip"><div class="wrap">
-  <a class="status" href="#contact">Open to projects and roles</a>
-  <a href="../work/climate-risk.html">Flood risk</a><a href="../work/extreme-heat.html">Extreme heat</a><a href="../index.html#featured">GIS and dashboards</a><a href="../work/decarbonisation.html">Decarbonisation</a><a href="../work/sustainable-planning.html">Sustainable planning</a>
+  <a class="status" href="#contact">Open to collaboration</a>
 </div></div>
 
 <main>
@@ -114,13 +113,13 @@
   <div class="wrap foot">
     <div class="contact-grid">
       <div class="contact-intro">
-        <span class="eyebrow">Contact</span>
-        <h2>Let's talk.</h2>
-        <p>Open to projects and roles in climate risk, extreme heat, GIS and decarbonisation. Tell me a little about what you need and I'll reply within two working days.</p>
+        <span class="eyebrow">Collaborate</span>
+        <h2>Let's work together.</h2>
+        <p>I'm open to collaborations on projects, research, writing and training, whether you're a city, a firm, a university or a nonprofit. Tell me a little about what you have in mind, and I'll reply within two working days.</p>
         <dl class="direct">
           <div><dt>Email</dt><dd><span class="sel">panwar.heemanshu@gmail.com</span> <button type="button" class="copy" id="copyEmail">Copy</button></dd></div>
           <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/himanshhu-p-0023b310b" target="_blank" rel="noopener noreferrer">linkedin.com/in/himanshhu-p-0023b310b</a></dd></div>
-          <div><dt>Resume</dt><dd><a href="../files/resume.pdf" target="_blank" rel="noopener noreferrer">Download (PDF)</a></dd></div>
+          <div><dt>CV</dt><dd><a href="../files/resume.pdf" target="_blank" rel="noopener noreferrer">Download (PDF)</a></dd></div>
         </dl>
       </div>
       <form class="cform" id="contactForm" novalidate>
@@ -130,8 +129,8 @@
         </div>
         <div class="field"><label for="cf-org">Organisation <span class="opt">optional</span></label><input id="cf-org" name="org" autocomplete="organization"></div>
         <div class="field"><label for="cf-topic">What is this about?</label>
-          <select id="cf-topic" name="topic"><option value="">Choose one</option><option>Project or collaboration</option><option>Job or role</option><option>Speaking or training</option><option>Something else</option></select><span class="err" id="err-topic"></span></div>
-        <div class="field"><label for="cf-msg">Message</label><textarea id="cf-msg" name="message" rows="5" placeholder="A few lines on what you're working on and how I could help."></textarea><span class="err" id="err-msg"></span></div>
+          <select id="cf-topic" name="topic"><option value="">Choose one</option><option>Project collaboration</option><option>Research or writing</option><option>Training or speaking</option><option>Something else</option></select><span class="err" id="err-topic"></span></div>
+        <div class="field"><label for="cf-msg">Message</label><textarea id="cf-msg" name="message" rows="5" placeholder="A few lines about what you have in mind."></textarea><span class="err" id="err-msg"></span></div>
         <button type="submit" class="btn p">Send message</button>
         <p class="done" id="cf-done" hidden>Thanks, your message has been sent. I'll reply within two working days.</p>
       </form>
