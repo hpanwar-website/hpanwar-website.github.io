@@ -71,8 +71,8 @@ nav.links a:hover,nav.links a[aria-current="page"]{background:var(--accent-soft)
 .btns{display:flex;gap:10px;flex-wrap:wrap}
 @media (max-width:820px){
   .hero{aspect-ratio:auto;max-height:none;min-height:0}
-  .hero .photo{position:static;display:block;width:100%;aspect-ratio:6/5;height:auto;object-position:85% 50%;-webkit-mask-image:none;mask-image:none}
-  .hero .wrap{height:auto}.hero-text{max-width:none;padding-block:28px 36px}
+  .hero .photo{position:static;display:block;width:100%;aspect-ratio:3/2;max-height:280px;height:auto;object-position:85% 50%;-webkit-mask-image:none;mask-image:none}
+  .hero .wrap{height:auto}.hero-text{max-width:none;padding-block:24px 32px}
   .hero .streets{display:none}
 }
 
