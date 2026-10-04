@@ -458,6 +458,6 @@ ol.timeline{list-style:none;margin:36px 0 0;padding:0;max-width:52rem}
 .cw:target h2{color:var(--accent)}
 
 /* home: map sits under the work groups; Sectors page */
-.where-sub{padding-top:0}
+.where-sub{padding-top:clamp(48px,6vw,80px)}
 .where-sub .h3sub{font-size:clamp(1.25rem,2.4vw,1.6rem)}
 .sec-page{padding-top:28px}
