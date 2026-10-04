@@ -17,13 +17,12 @@ When streets flood, some roads become too deep to drive. Which roads stay passab
 - Worked out the best routes from flood-affected areas to nearby emergency shelters.
 
 ## Result (what changed; a number helps)
-County-wide maps of safe routes and shelter access that support emergency planning and public safety decisions.
+In the flood scenario tested, about 70% of county roads would be too deep to drive. I built this on my own initiative, as a proof of concept to show what this kind of analysis can do for the county's emergency planning.
 
 ## My role
-GIS analysis and route mapping
+Self-initiated; GIS analysis and route mapping
 
 ## Tools and data
 ArcGIS Pro, county road network, flood depth data
 
 ## Anything else (partners, scale, awards, links)
-

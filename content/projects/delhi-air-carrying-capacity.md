@@ -6,7 +6,7 @@ Group: Sustainable Planning & Environment
 Organisation: School of Planning and Architecture, Delhi
 Years: 2020–21
 Live link: -
-Images: none yet. Save photos as images/projects/delhi-air-carrying-capacity-1.jpg, -2.jpg ...
+Images: images/projects/delhi-air-carrying-capacity.jpg (already on the page)
 
 ## The question (one or two sentences)
 Delhi has some of the most polluted air of any big city, and it keeps growing. How much more activity can its air carry, and which land uses drive the pollution?
@@ -19,7 +19,7 @@ Delhi has some of the most polluted air of any big city, and it keeps growing. H
 - Wrote SOPs and an action plan linking land uses to targeted pollution cuts, including where to site industry.
 
 ## Result (what changed; a number helps)
-A carrying capacity framework and action plan for the city's pollution regulator, later published as a book chapter (CRC Press, 2022).
+A carrying capacity framework and action plan for the Delhi Pollution Control Committee (DPCC). Transport was the biggest contributor among the land uses studied. The work was later published as a book chapter (CRC Press, 2022).
 
 ## My role
 Environmental Planner
@@ -28,4 +28,4 @@ Environmental Planner
 GIS, emission inventories, air monitoring data
 
 ## Anything else (partners, scale, awards, links)
-
+Client: Delhi Pollution Control Committee

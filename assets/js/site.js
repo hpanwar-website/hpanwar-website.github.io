@@ -151,7 +151,7 @@
       }).then(function(res){
         if(res.ok){
           var done=document.getElementById('cf-done');
-          done.textContent="Thank you! Your message has been sent to Himanshhu.";
+          done.textContent="Thanks, your message has been sent. I'll reply within two working days.";
           done.hidden=false;
           btn.textContent='Message sent';
           f.reset();

@@ -18,7 +18,7 @@ Broward County is planning a new forensic science building that will also serve 
 - Presented the findings to the design team.
 
 ## Result (what changed; a number helps)
-The findings fed directly into changes to the site design and planning approach, so the building can do its job as an evacuation centre.
+In a 100-year storm, the streets leading to the site would flood about 2 feet deep. Based on these findings, the design team changed the building's access routes and reworked the site landscaping to follow the new grading.
 
 ## My role
 Flood and stormwater analysis, 3D modelling, briefing the design team
@@ -27,4 +27,3 @@ Flood and stormwater analysis, 3D modelling, briefing the design team
 ArcGIS Pro, 3D GIS, county resilience plan flood scenarios
 
 ## Anything else (partners, scale, awards, links)
-

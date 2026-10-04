@@ -12,20 +12,19 @@ Images: images/projects/broward-canals.jpg (already on the page)
 Broward's resilience plan lists thousands of flood projects, but cities and drainage districts need money to build them. The county set up a $20 million grant program to share the cost of pump stations, water control structures and culverts. How do you get every eligible city and district to apply, on time and with strong projects?
 
 ## What I did (3 to 5 points)
-- Managed the program day to day, from launch through the application window.
-- Coordinated with every city and drainage district: invited them in, answered their questions and kept them on track.
-- Scheduled and prepared the presentations and information webinars for applicants.
-- Built the program website and the ArcGIS-based application portal and survey forms.
-- Built the program's project dashboard.
+- Managed the whole program day to day, from launch through the application window.
+- Gave 23 presentations at city commission meetings to bring every eligible city and drainage district in.
+- Coordinated with each city and district: invited them, answered their questions and kept them on track.
+- Built the program website, the ArcGIS application portal and survey forms, and the project dashboard.
+- Scheduled and prepared the information webinars for applicants.
 
 ## Result (what changed; a number helps)
-A live county-wide grant program with clear rules, an online application portal, and every eligible city and district invited into the first funding round.
+A county-wide grant program with clear rules and a simple online application, which made applying faster and easier than most grant programs. Applications for the first funding round close in October 2026.
 
 ## My role
-Program coordination and project management; website, portal and dashboard
+Program manager; built the website, application portal and dashboard
 
 ## Tools and data
 ArcGIS (application portal, survey forms, dashboard), program website
 
 ## Anything else (partners, scale, awards, links)
-

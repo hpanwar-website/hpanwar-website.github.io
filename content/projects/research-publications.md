@@ -3,7 +3,7 @@
 Status: Page written. Edit here if you want changes, then ask the AI to update the page.
 Page: projects/research-publications.html
 Group: Training & Research
-Organisation: Columbia University, CRC Press, IGI Global, Nova Science, SOLARCYCLE
+Organisation: Columbia University, CRC Press, IGI Global, Nova Science, SPA Vijayawada, SOLARCYCLE
 Years: 2021–26
 Live link: -
 Images: none yet. Save photos as images/projects/research-publications-1.jpg, -2.jpg ...
@@ -12,9 +12,9 @@ Images: none yet. Save photos as images/projects/research-publications-1.jpg, -2
 Most of my project work ends up as a report for one client. Some of it I have also written up for a wider audience, so others can use the methods.
 
 ## What I did (3 to 5 points)
-- 
-- 
-- 
+- Wrote five book chapters on air quality, urban biodiversity, city tree planting and port-led regional development, published by CRC Press, IGI Global, Nova Science and SPA Vijayawada.
+- Co-authored two Columbia University research articles on climate education and adult climate literacy.
+- Co-authored a SOLARCYCLE white paper comparing solar panel reuse with advanced recycling.
 
 ## Result (what changed; a number helps)
 Five book chapters (CRC Press, IGI Global, Nova Science and SPA Vijayawada), two Columbia University research articles, and a published white paper. Most grew out of projects on this site.
@@ -26,4 +26,4 @@ Author or co-author
 
 
 ## Anything else (partners, scale, awards, links)
-
+Published by: Taylor & Francis (CRC Press), IGI Global, Nova Science, SPA Vijayawada, Columbia Academic Commons, SOLARCYCLE

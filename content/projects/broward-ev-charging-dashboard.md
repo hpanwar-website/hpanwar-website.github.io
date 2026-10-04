@@ -15,6 +15,7 @@ More people in Broward are driving electric cars. Where are the chargers today, 
 - Built GIS dashboards mapping existing and proposed EV chargers.
 - Analysed where charging demand comes from, using population, land-use and transport data.
 - Designed a method to forecast future charging demand and find gaps in coverage.
+- Helped frame the county's countywide EV infrastructure plan.
 
 ## Result (what changed; a number helps)
 A planning tool that shows where new chargers are needed, for a USD 250k county charging project.

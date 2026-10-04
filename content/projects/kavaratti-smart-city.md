@@ -18,7 +18,7 @@ Kavaratti, the capital of Lakshadweep, is a small, eco-sensitive coral island wi
 - Supported Blue Flag certification for four beaches: reviewed gaps, operations and staffing, and helped revise and evaluate tenders.
 
 ## Result (what changed; a number helps)
-Waste management and Blue Flag beach projects taken from idea to tender, within a USD 65 million smart city program.
+Waste management projects taken from idea to tender, and Blue Flag certification support for the island's beaches, which went on to earn Blue Flag status. Part of a USD 65 million smart city program.
 
 ## My role
 Site project coordinator

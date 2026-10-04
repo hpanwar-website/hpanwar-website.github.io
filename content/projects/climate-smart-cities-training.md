@@ -15,10 +15,10 @@ India's ClimateSmart Cities Assessment Framework asks cities to measure their em
 - Wrote two training manuals for the national program: one on city climate action plans, one on urban biodiversity.
 - Broke climate action planning into clear steps a city team can follow: a greenhouse gas inventory, a vulnerability assessment, choosing mitigation and adaptation actions, and tracking progress over time.
 - Set out how cities can map who is involved, measure biodiversity with simple indicators, and prepare a local biodiversity plan.
-- Used these modules to train officials from more than 50 Indian city governments.
+- Used these modules to train more than 90 officials from over 50 Indian city governments, across 6 sessions.
 
 ## Result (what changed; a number helps)
-Two published training manuals (NIUA, December 2021) and trained officials in 50+ cities, helping them report and act under the national framework.
+Two published training manuals (NIUA, December 2021), and more than 90 officials from 50+ cities trained to report and act under the national framework.
 
 ## My role
 Subject Matter Expert; author of both manuals and trainer

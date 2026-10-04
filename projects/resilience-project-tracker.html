@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Resilience Plan Project Tracker · Himanshhu Panwar</title>
-<meta name="description" content="A public map of 45,902 proposed resilience projects worth about $28 billion.">
+<meta name="description" content="A public map of 45,902 resilience projects worth about $28 billion, on a data model I built. Up to 200 viewers a month.">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -45,25 +45,25 @@
   </div></div>
   <div class="wrap"><div class="cs">
     <div>
-      <p class="ask">Broward's resilience plan proposes 45,902 projects, from seawalls and pump stations to culverts and swales, worth about $28 billion across every city and drainage district. How can residents, cities and funders see what is planned, where it is, and whether it is funded?</p>
+      <p class="ask">Broward's resilience plan proposes 45,902 projects, from seawalls, culverts and pump stations to water control structures and drainage behind seawalls, worth about $28 billion across every city and drainage district. How can residents, cities and funders see what is planned, where it is, and whether it is funded?</p>
       <h2>What I did</h2>
       <ul>
         <li>Designed and launched a public GIS dashboard that shows every proposed resilience project on one map.</li>
-        <li>Built the data model behind it, so anyone can filter by city, commission district, drainage district, project type, phase and funding status.</li>
-        <li>Checked and documented data coming from many different agencies, so the totals line up across jurisdictions.</li>
+        <li>Built the whole data structure and model myself, from the raw project files sent by Hazen, the plan's engineering consultant. Anyone can filter by city, commission district, drainage district, project type, phase and funding status.</li>
+        <li>Checked and documented data from many agencies, so the totals line up across jurisdictions.</li>
       </ul>
-      <div class="res"><b>Result</b><p>45,902 projects and about $28 billion of planned investment are open to anyone in one place, supporting transparency and funding oversight as projects move from plan to build.</p></div>
+      <div class="res"><b>Result</b><p>45,902 projects and about $28 billion of planned investment, open to anyone in one place. The tracker gets up to 200 viewers a month, including local governments and engineering consulting firms.</p></div>
       <p class="muted">For the same plan, I also redesigned two dashboards first produced by Hazen, the county's engineering consultant, with a clearer layout and easier navigation: economic benefits (avoided flood damages by neighbourhood and industry) and adaptation costs (costs by year and place).</p>
       <div class="viz"><img src="../images/projects/resilience-tracker.jpg" loading="lazy" alt="Resilience Plan Project Tracker dashboard" class="dash"></div>
     </div>
     <aside class="side"><dl>
-      <dt>My role</dt><dd>Designed and deployed the tracker; redesigned the two Hazen dashboards</dd>
-      <dt>Tools</dt><dd>ArcGIS Dashboards, Experience Builder, Power BI</dd>
+      <dt>My role</dt><dd>Designed the data model; built and launched the tracker</dd>
+      <dt>Tools &amp; data</dt><dd>ArcGIS Dashboards, Experience Builder, Resilient Broward Plan project data</dd>
       <dt>Live tools</dt><dd><a href="https://www.resilientbroward.com/resilience-project-tracker">Project tracker ↗</a><a href="https://app.powerbigov.us/view?r=eyJrIjoiNTA3NWIyNzQtOGJlNS00Yzc0LWE0ZmEtNTg3MjNlOWY3NDU3IiwidCI6Ijk0ODNhZTZjLTgwOGEtNGYwMi05OGExLTgxNTRjMGIzNWJmZCJ9">Economic benefits ↗</a><a href="https://app.powerbigov.us/view?r=eyJrIjoiMGMxMzM4N2QtZDYwMS00MWE2LWE5Y2QtNWZkZmM5OGY5ODc2IiwidCI6Ijk0ODNhZTZjLTgwOGEtNGYwMi05OGExLTgxNTRjMGIzNWJmZCJ9">Adaptation costs ↗</a></dd>
       <dt>Sectors</dt><dd><div class="chips"><span class="chip">Water &amp; Flooding</span><span class="chip">Finance</span><span class="chip">Planning</span></div></dd>
     </dl></aside>
   </div>
-  <div class="next"><a href="../work/climate-risk.html">← All Climate Risk &amp; Resilience projects</a><a href="economic-benefits-dashboard.html">Next: Resilience Plan Economic Benefits Dashboard →</a></div></div>
+  <div class="next"><a href="../work/climate-risk.html">← All Climate Risk &amp; Resilience projects</a><a href="resilience-plan-dashboards.html">Next: Resilience Plan Dashboards Redesign →</a></div></div>
 
 <dialog class="cert-dlg doc-dlg" id="docDlg" aria-label="Document, enlarged"><button type="button" class="dlg-close" id="docClose">Close</button><img id="docBig" alt=""></dialog>
 </main>
@@ -91,7 +91,7 @@
           <select id="cf-topic" name="topic"><option value="">Choose one</option><option>Project or collaboration</option><option>Job or role</option><option>Speaking or training</option><option>Something else</option></select><span class="err" id="err-topic"></span></div>
         <div class="field"><label for="cf-msg">Message</label><textarea id="cf-msg" name="message" rows="5" placeholder="A few lines on what you're working on and how I could help."></textarea><span class="err" id="err-msg"></span></div>
         <button type="submit" class="btn p">Send message</button>
-        <p class="done" id="cf-done" hidden>Thanks, your message is ready. In this preview nothing is sent. Once the site is live, it will go straight to Himanshhu's inbox.</p>
+        <p class="done" id="cf-done" hidden>Thanks, your message has been sent. I'll reply within two working days.</p>
       </form>
     </div>
   </div>

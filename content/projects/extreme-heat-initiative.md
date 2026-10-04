@@ -12,20 +12,21 @@ Images: images/projects/beat-the-heat.jpg (already on the page)
 South Florida is getting hotter, and heat illness sends thousands of people to the emergency room. Where is heat most dangerous, who is most at risk, and where should the county and its cities put cooling centres?
 
 ## What I did (3 to 5 points)
-- Led the GIS analysis that ranks heat risk across the county, using satellite surface temperature, tree and green cover, and social vulnerability and equity data.
-- Linked more than 3,300 heat-related emergency room visits (2021–2025) to daily heat index and temperature, to show when and where heat actually makes people sick.
-- Worked with 24+ cities, the health department and the Medical Examiner to site 35+ cooling centres.
-- Built public tools: a StoryMap that explains the risk, and an urban heat map showing 327 schools, libraries, clinics and community centres by heat level.
-- Briefed city officials, doctors and community groups.
+- Started the initiative and ran it in-house, with no added funding or outside contractors, through county teams and partnerships.
+- Led the GIS analysis that ranks heat risk across the county, using satellite surface temperature, tree and green cover, and social vulnerability data.
+- Linked more than 3,300 heat-related emergency room visits (2021–2025) to the daily heat index and temperature, to show when and where heat makes people sick.
+- Worked with 24 cities, the health department and the Medical Examiner to open 43 cooling centres. Set up heat alerts to cities with the National Weather Service, so centres open before dangerous heat arrives.
+- Built public tools (a StoryMap and an urban heat map of 327 schools, libraries, clinics and community centres), and briefed city officials, doctors and community groups at town halls and committee meetings.
 
 ## Result (what changed; a number helps)
-A county-wide heat program covering about 2 million residents, 35+ cooling centres, and public tools that residents and cities use to plan for hot days. The program won a NACo 2026 Achievement Award from the National Association of Counties.
+A county-wide heat program covering about 2 million residents, with 43 cooling centres in 24 cities. It won a 2026 NACo Achievement Award from the National Association of Counties. Next year the program expands to more cities and plans to lower the cooling centre activation threshold from 110°F to 105°F, so centres open on more hot days.
 
 ## My role
-Led the analysis and managed delivery end to end
+Started the initiative and led it end to end: analysis, partnerships and delivery
 
 ## Tools and data
 ArcGIS Pro, StoryMaps, Experience Builder, Power BI, satellite surface temperature, hospital ER data
 
 ## Anything else (partners, scale, awards, links)
-
+Partners: 24 cities, public health, Medical Examiner, National Weather Service
+Award: NACo 2026 Achievement Award

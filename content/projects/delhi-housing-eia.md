@@ -18,7 +18,7 @@ A township was proposed near Delhi University, and the case reached India's Nati
 - Wrote a feasibility report with preventive management practices.
 
 ## Result (what changed; a number helps)
-An evidence-based assessment for the tribunal, with practical steps to limit the township's pollution.
+An evidence-based assessment, submitted to the National Green Tribunal, with practical steps to limit the township's pollution. The tribunal did not approve the project.
 
 ## My role
 Environmental Planner

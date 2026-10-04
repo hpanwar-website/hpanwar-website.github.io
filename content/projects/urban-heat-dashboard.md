@@ -17,7 +17,7 @@ People see static maps of surface temperature but can't tell what they mean for 
 - Added tools that help decide where shade trees, other nature-based solutions or shading structures should go first, to protect the most vulnerable people.
 
 ## Result (what changed; a number helps)
-A live public tool that links heat data to real places, so the county and its partners can see which facilities and communities to help first.
+A live public tool, used by about 50 people a month, that links heat data to real places so the county and its partners can see which facilities and communities to help first.
 
 ## My role
 Designed and built the dashboard
@@ -26,4 +26,3 @@ Designed and built the dashboard
 ArcGIS Experience Builder, satellite surface temperature, county facility data, heat index forecast
 
 ## Anything else (partners, scale, awards, links)
-

@@ -17,7 +17,7 @@ Heat sends people to the emergency room, but on which days, and why? Is it the h
 - Showed the pattern clearly: cases rise when the heat index rises, even on days when the maximum temperature does not, because humidity drives the heat index up.
 
 ## Result (what changed; a number helps)
-A clear, evidence-based case for using the heat index, not just temperature, in county heat warnings and planning.
+Heat sends more than 600 people a year to Broward's emergency departments. The dashboard shows these visits rise with the heat index, even on days when the maximum temperature does not. That makes a clear case for using the heat index, not just temperature, in county heat warnings and planning.
 
 ## My role
 Built the dashboard and the analysis
@@ -26,4 +26,4 @@ Built the dashboard and the analysis
 Power BI, heat illness case data, heat index, daily max and min temperature
 
 ## Anything else (partners, scale, awards, links)
-
+This is an internal tool, because it uses health data. Shown here as images only.
